@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">NIMB</string>
+    <!-- description -->
+    <string name="app_desc">Hide stuff far away from you</string>
+    <string name="preferences_title">NIMB Preferences</string>
+    <string name="preferences_summary">The max radius in meters to toggle marker visibility</string>
+    <string name="preferences_dialogTitle">Set the max radius</string>
+    <string name="preferences_distanceTitle">Max radius</string>
+    <string name="nimb_preferences">nimb_preferences</string>
+
+
+</resources>

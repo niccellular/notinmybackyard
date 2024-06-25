@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_title" />
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="plugin_adsbexchange_dump_rate"
+        android:title="@string/set_dump_rate"
+        android:summary="@string/set_dump_rate_summary"
+        android:dialogTitle="@string/set_dump_rate"
+        android:defaultValue="2"/>
+    <com.atakmap.android.gui.PanSwitchPreference
+        android:key="plugin_adsbexchange_mil"
+        android:title="@string/set_mil"
+        android:summary="@string/set_mil_summary"
+        android:dialogTitle="@string/set_mil"
+        android:defaultValue="false"/>
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="plugin_adsbexchange_altitude"
+        android:title="@string/set_altitude"
+        android:summary="@string/set_altitude_summary"
+        android:dialogTitle="@string/set_altitude"
+        android:defaultValue="50000"/>
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="plugin_adsbexchange_speed"
+        android:title="@string/set_speed"
+        android:summary="@string/set_speed_summary"
+        android:dialogTitle="@string/set_speed"
+        android:defaultValue="1000"/>
+    <com.atakmap.android.gui.PanEditTextPreference
+        android:key="plugin_adsbexchange_zoom_level"
+        android:title="@string/set_zoom_level"
+        android:summary="@string/set_zoom_level_summary"
+        android:dialogTitle="@string/set_zoom_level"
+        android:defaultValue="17"/>
+</PreferenceScreen>
